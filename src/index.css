@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+:root {
+  --font-geist: 'Geist', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-geist-mono: 'Geist Mono', ui-monospace, SFMono-Regular, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-geist);
+  background-color: #ffffff;
+  color: #0a0a0a;
+}
+
+.font-geist {
+  font-family: var(--font-geist);
+}
+
+.font-geist-mono {
+  font-family: var(--font-geist-mono);
+}
+
+/* Corner bracket utility matching G. Colombel 2024 active filter */
+.colombel-bracket {
+  position: relative;
+}
+.colombel-bracket::before,
+.colombel-bracket::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+/* Scale live desktop iframe cleanly inside thumbnail cards */
+.iframe-scale-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
