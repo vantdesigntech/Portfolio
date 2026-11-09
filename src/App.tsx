@@ -77,7 +77,7 @@ const LiveCardIframe: React.FC<{
 };
 
 /**
- * Computes the 3D cascade geometry for the 10 unique websites (no duplicates),
+ * Computes the 3D cascade geometry for the 12 unique websites (no duplicates),
  * matching LE:MA (PORTFOLIO NUEVO.mp4 0:00–0:04), assisted by local Ollama (qwen2.5-coder:7b).
  *
  * - Hovering on PC (or tapping/sliding finger on Mobile) any card (`activeIndex`) immediately
@@ -90,28 +90,28 @@ function getTenCardCascadeStyle(
   activeIndex: number | null,
   isMobile: boolean
 ): React.CSSProperties {
-  const scaleStart = isMobile ? 0.68 : 0.60;
+  const scaleStart = isMobile ? 0.66 : 0.58;
   const scaleEnd = isMobile ? 0.98 : 0.98;
   const t = total > 1 ? index / (total - 1) : 1;
   let scale = scaleStart + (scaleEnd - scaleStart) * Math.pow(t, 0.92);
 
-  const baseTop = isMobile ? 4 : 10;
-  const stepY = isMobile ? 36 : 46;
+  const baseTop = isMobile ? 4 : 8;
+  const stepY = isMobile ? 30 : 38;
   let y = baseTop + index * stepY;
 
   if (activeIndex !== null) {
     if (index < activeIndex) {
       // Slightly tighten cards above the hovered/active card
-      const compressedStep = isMobile ? 24 : 30;
+      const compressedStep = isMobile ? 20 : 25;
       y = baseTop + index * compressedStep - (isMobile ? 4 : 6);
     } else if (index === activeIndex) {
       // Active card lifts slightly and scales up cleanly inside the stack (0:03 of video)
-      const compressedStep = isMobile ? 24 : 30;
+      const compressedStep = isMobile ? 20 : 25;
       y = baseTop + index * compressedStep - (isMobile ? 2 : 4);
       scale = Math.max(scale, isMobile ? 0.92 : 0.88);
     } else {
       // Cards below the active card slide down smoothly to reveal the full Hero of the active card
-      const compressedStep = isMobile ? 26 : 32;
+      const compressedStep = isMobile ? 22 : 27;
       const revealOffset = isMobile ? 160 : 265;
       y = baseTop + index * compressedStep + revealOffset;
     }
@@ -582,7 +582,7 @@ export default function App() {
               Flow of Time. Rates of Quality.
             </h3>
             <p className="text-xs text-[#52525b] leading-relaxed mb-6">
-              En PC, pasa el ratón por las 10 webs en cascada para desplegarlas y ver sus animaciones en vivo (o haz clic para pantalla completa). En móvil, desliza el dedo o toca una tarjeta para ver su animación en vivo, y vuelve a tocarla para abrirla entera.
+              En PC, pasa el ratón por las 12 webs en cascada para desplegarlas y ver sus animaciones en vivo (o haz clic para pantalla completa). En móvil, desliza el dedo o toca una tarjeta para ver su animación en vivo, y vuelve a tocarla para abrirla entera.
             </p>
             <button
               type="button"
