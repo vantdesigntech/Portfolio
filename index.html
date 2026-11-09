@@ -3,13 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Trabajos, — Interactive Digital Portfolio (Idea 1 · Geist)</title>
+    <title>LE:MA — Interactive Web Architecture Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;600&family=Geist:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <!-- Preload the 5 cascade stack posters for instant LCP on Vercel CDN -->
+    <link rel="preload" as="image" href="/previews/pixel-pop-fashion-shop/poster.jpg" fetchpriority="high" />
+    <link rel="preload" as="image" href="/previews/project-to-home-bridge/poster.jpg" fetchpriority="high" />
+    <link rel="preload" as="image" href="/previews/luz-and-lens-studio/poster.jpg" />
+    <link rel="preload" as="image" href="/previews/tinta-y-piel-studio/poster.jpg" />
+    <link rel="preload" as="image" href="/previews/pure-trail-cycle-co/poster.jpg" />
   </head>
   <body class="bg-white text-[#0a0a0a] antialiased selection:bg-[#0a0a0a] selection:text-white">
     <div id="root"></div>

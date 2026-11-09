@@ -78,7 +78,22 @@ export default function App() {
     };
     checkViewport();
     window.addEventListener('resize', checkViewport, { passive: true });
-    return () => window.removeEventListener('resize', checkViewport);
+
+    // Background prefetch of the 5 preview HTML entrypoints after initial paint
+    const timer = setTimeout(() => {
+      PORTFOLIO_PROJECTS.forEach((p) => {
+        const link = document.createElement('link');
+        link.rel = 'prefetch';
+        link.href = p.previewUrl;
+        link.as = 'document';
+        document.head.appendChild(link);
+      });
+    }, 1200);
+
+    return () => {
+      window.removeEventListener('resize', checkViewport);
+      clearTimeout(timer);
+    };
   }, []);
 
   useEffect(() => {

@@ -3,3 +3,6 @@ dist
 .DS_Store
 *.tsbuildinfo
 referencias
+
+.vercel
+.env*
