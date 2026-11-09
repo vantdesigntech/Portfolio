@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="280" viewBox="0 0 280 280" fill="none">
+  <rect x="2" y="2" width="276" height="276" rx="34" fill="#050605" fill-opacity="0.94" stroke="#ffffff" stroke-opacity="0.22" stroke-width="2"/>
+  <text x="26" y="122" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-weight="800" font-size="74" letter-spacing="-2">21 kg</text>
+  <text x="28" y="162" fill="#B8FF2C" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="18" letter-spacing="1.5">FIBRA DE CARBONO</text>
+  <path d="M32 244 L37 224 H53 L58 244 Z" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="45" cy="219" r="4" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="72" y="239" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-weight="600" font-size="13.5" letter-spacing="1.2">PESO ULTRALIGERO</text>
+</svg>

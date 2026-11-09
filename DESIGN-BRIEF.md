@@ -6,12 +6,17 @@
 
 ## 02. Webs de referencia y Proyectos Incluidos
 - **Referencia Visual Principal:** `E:\WEBS\PORTFOLIO\PORTFOLIO NUEVO.mp4` (LE:MA Studio Hero 3D Cascade Stack).
-- **Las 5 Webs Integradas en Vivo:**
+- **Las 10 Webs Integradas en Vivo:**
   1. `pure-trail-cycle-co` — **PURE Ride** (Ecommerce / Mountain Bike & Downhill Components)
   2. `tinta-y-piel-studio` — **Tinta & Piel** (Estudio / Blackwork Tattoo & Art Studio)
   3. `luz-and-lens-studio` — **Inés Valdivia** (Portfolio / Fotografía Documental & Diseño Editorial)
   4. `project-to-home-bridge` — **Fàbrika Barcelona** (Restaurante & Taproom / Cervecería Artesana Poblenou)
   5. `pixel-pop-fashion-shop` — **VYBE** (Ecommerce / Gen-Z Streetwear & Loud Fashion Store)
+  6. `kraftwerk-berlin-live-culture` — **KRAFTWERK // BERLIN** (Estudio / Industrial Techno, Live Rave Culture & Clubwear Archive)
+  7. `pixel-perfect-replay-02298` — **Kink BCN** (Ecommerce / Hand-Drawn Skate Shop & Zine Culture Barcelona)
+  8. `surge-motion-electric` — **VOLTRA X1** (Ecommerce / E-Bike de Montaña Carbono 3D WebGL Experience)
+  9. `archive-to-home-52` — **MARGEN®** (Ecommerce / Swiss Grid Apparel & 3D Cloth Specimen Archive)
+  10. `codebase-compass-archive-bridge` — **Astropulse Agency** (Estudio / Orbital Social Media & SpaceX Telemetry Agency)
 
 ## 03. Tipografías
 - **Principal (UI & HUD):** `Geist` / `Inter` (Sans-serif suiza limpia de alto contraste para titulares y controles).

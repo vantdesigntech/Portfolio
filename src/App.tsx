@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import {
-  Maximize2,
   Minimize2,
   Smartphone,
   Monitor,
@@ -13,42 +12,107 @@ import {
 } from './projectsData';
 
 /**
- * Computes the 3D cascade geometry for the 5 unique websites (no duplicates),
+ * Scaled live 1440x900 iframe overlay for the active/hovered card in the cascade.
+ * Built with local Ollama (qwen2.5-coder:7b) assistance.
+ * Keeps poster.jpg visible underneath until the live iframe finishes loading,
+ * then fades in smoothly so all hero animations (videos, WebGL, kinetic type, marquees)
+ * play live inside the card on both PC hover and Mobile touch/riffle.
+ */
+const LiveCardIframe: React.FC<{
+  project: PortfolioProject;
+  isLive: boolean;
+}> = ({ project, isLive }) => {
+  const containerRef = useRef<HTMLDivElement | null>(null);
+  const [scale, setScale] = useState<number>(0.4722);
+  const [loaded, setLoaded] = useState<boolean>(false);
+
+  useEffect(() => {
+    if (!isLive) {
+      setLoaded(false);
+      return;
+    }
+    const el = containerRef.current;
+    if (!el) return;
+
+    const updateScale = () => {
+      const w = el.clientWidth;
+      if (w > 0) {
+        setScale(w / 1440);
+      }
+    };
+    updateScale();
+
+    const ro = new ResizeObserver(updateScale);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, [isLive]);
+
+  if (!isLive) return null;
+
+  return (
+    <div
+      ref={containerRef}
+      className="absolute inset-0 z-10 overflow-hidden pointer-events-none select-none"
+    >
+      <iframe
+        src={project.previewUrl}
+        title={`${project.title} Live Preview`}
+        onLoad={() => setLoaded(true)}
+        tabIndex={-1}
+        sandbox="allow-scripts allow-same-origin"
+        style={{
+          width: '1440px',
+          height: '900px',
+          transform: `scale(${scale})`,
+          transformOrigin: 'top left',
+          border: 'none',
+          pointerEvents: 'none',
+        }}
+        className={`transition-opacity duration-500 ${
+          loaded ? 'opacity-100' : 'opacity-0'
+        }`}
+      />
+    </div>
+  );
+};
+
+/**
+ * Computes the 3D cascade geometry for the 10 unique websites (no duplicates),
  * matching LE:MA (PORTFOLIO NUEVO.mp4 0:00–0:04), assisted by local Ollama (qwen2.5-coder:7b).
  *
- * - Hovering (or tapping on mobile) any card (`activeIndex`) immediately slides all cards
- *   below it (`index > activeIndex`) downward so the hovered card's full 16:10 Hero is revealed.
- * - Uses pure GPU transform3d + scale on pre-decoded high-DPI posters for locked 120fps fluidity.
+ * - Hovering on PC (or tapping/sliding finger on Mobile) any card (`activeIndex`) immediately
+ *   slides all cards below it (`index > activeIndex`) downward so the card's full 16:10 Hero
+ *   and its live animations are revealed.
  */
-function getFiveCardCascadeStyle(
+function getTenCardCascadeStyle(
   index: number,
   total: number,
   activeIndex: number | null,
   isMobile: boolean
 ): React.CSSProperties {
-  const scaleStart = isMobile ? 0.74 : 0.66;
+  const scaleStart = isMobile ? 0.68 : 0.60;
   const scaleEnd = isMobile ? 0.98 : 0.98;
   const t = total > 1 ? index / (total - 1) : 1;
-  let scale = scaleStart + (scaleEnd - scaleStart) * Math.pow(t, 0.9);
+  let scale = scaleStart + (scaleEnd - scaleStart) * Math.pow(t, 0.92);
 
-  const baseTop = isMobile ? 8 : 16;
-  const stepY = isMobile ? 64 : 92;
+  const baseTop = isMobile ? 4 : 10;
+  const stepY = isMobile ? 36 : 46;
   let y = baseTop + index * stepY;
 
   if (activeIndex !== null) {
     if (index < activeIndex) {
-      // Slightly tighten cards above the hovered card
-      const compressedStep = isMobile ? 44 : 62;
-      y = baseTop + index * compressedStep - (isMobile ? 8 : 14);
+      // Slightly tighten cards above the hovered/active card
+      const compressedStep = isMobile ? 24 : 30;
+      y = baseTop + index * compressedStep - (isMobile ? 4 : 6);
     } else if (index === activeIndex) {
-      // Hovered card lifts slightly and scales up cleanly inside the stack (0:03 of video)
-      const compressedStep = isMobile ? 44 : 62;
-      y = baseTop + index * compressedStep - (isMobile ? 4 : 8);
-      scale = Math.max(scale, isMobile ? 0.92 : 0.86);
+      // Active card lifts slightly and scales up cleanly inside the stack (0:03 of video)
+      const compressedStep = isMobile ? 24 : 30;
+      y = baseTop + index * compressedStep - (isMobile ? 2 : 4);
+      scale = Math.max(scale, isMobile ? 0.92 : 0.88);
     } else {
-      // Cards below the hovered card slide down smoothly to reveal the full Hero of the hovered card
-      const compressedStep = isMobile ? 46 : 64;
-      const revealOffset = isMobile ? 155 : 265;
+      // Cards below the active card slide down smoothly to reveal the full Hero of the active card
+      const compressedStep = isMobile ? 26 : 32;
+      const revealOffset = isMobile ? 160 : 265;
       y = baseTop + index * compressedStep + revealOffset;
     }
   }
@@ -63,9 +127,9 @@ function getFiveCardCascadeStyle(
 }
 
 export default function App() {
-  // Hovered card index on Desktop (or tapped card index on Mobile)
+  // Hovered card index on Desktop (or tapped/swiped card index on Mobile)
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
-  // Expanded website for full-screen live interactive experience (1 single iframe at a time = 0 lag)
+  // Expanded website for full-screen live interactive experience (1 single full-screen iframe at a time)
   const [expandedProject, setExpandedProject] = useState<PortfolioProject | null>(null);
   const [devicePreview, setDevicePreview] = useState<'desktop' | 'mobile'>('desktop');
   const [iframeKeys, setIframeKeys] = useState<Record<string, number>>({});
@@ -79,7 +143,7 @@ export default function App() {
     checkViewport();
     window.addEventListener('resize', checkViewport, { passive: true });
 
-    // Background prefetch of the 5 preview HTML entrypoints after initial paint
+    // Background prefetch of the 10 preview HTML entrypoints after initial paint
     const timer = setTimeout(() => {
       PORTFOLIO_PROJECTS.forEach((p) => {
         const link = document.createElement('link');
@@ -115,14 +179,39 @@ export default function App() {
     setIframeKeys((prev) => ({ ...prev, [id]: (prev[id] || 0) + 1 }));
   };
 
+  // Touch-riffle handler on Mobile: sliding finger vertically across the stack opens cards in cascade
+  const handleStackTouchMove = (e: React.TouchEvent<HTMLDivElement>) => {
+    if (e.touches.length !== 1) return;
+    const touch = e.touches[0];
+    const target = document.elementFromPoint(touch.clientX, touch.clientY);
+    const cardEl = target?.closest('[data-card-index]');
+    if (cardEl) {
+      const idx = Number(cardEl.getAttribute('data-card-index'));
+      if (!Number.isNaN(idx) && idx !== activeIndex) {
+        setActiveIndex(idx);
+      }
+    }
+  };
+
   const activeHudProject =
     activeIndex !== null ? PORTFOLIO_PROJECTS[activeIndex] : null;
+
+  // Which card shows live animations right inside the cascade stack?
+  // When no modal is open: the hovered/tapped card (`activeIndex`), or the frontmost card (#10) by default.
+  const liveCascadeIndex =
+    expandedProject === null
+      ? activeIndex !== null
+        ? activeIndex
+        : PORTFOLIO_PROJECTS.length - 1
+      : null;
 
   return (
     <div className="relative w-screen h-screen overflow-hidden bg-white text-[#0a0a0a] font-geist select-none">
       {/* =====================================================================
           UNIFIED 100VH HERO CASCADE STAGE (DESKTOP & MOBILE — 1:1 LE:MA VIDEO)
-          Only the 5 unique websites, hover-to-peek on desktop, tap-to-peek/expand on mobile
+          10 unique websites:
+          - PC: Hovering any card opens it in the cascade & plays its live animations; clicking expands full screen.
+          - Mobile: Tapping or sliding finger vertically opens cards & plays live animations; 2nd tap expands full screen.
          ===================================================================== */}
       <main
         className="relative w-full h-full overflow-hidden bg-white"
@@ -215,9 +304,7 @@ export default function App() {
           </button>
         </header>
 
-        {/* MIDDLE LEFT & RIGHT HUD LABELS
-            On Desktop: vertically centered at left/right edges (exact match to video)
-            On Mobile: positioned cleanly just above the cascade stack so it never overlaps cards */}
+        {/* MIDDLE LEFT & RIGHT HUD LABELS */}
         <div
           className="
             fixed inset-x-0 z-40 px-4 sm:px-7 flex items-center justify-between pointer-events-none
@@ -234,25 +321,27 @@ export default function App() {
             </span>
           </div>
 
-          {/* Right Counter: "05 projects" */}
+          {/* Right Counter: "10 projects" */}
           <div className="pointer-events-auto text-[13px] sm:text-[15px] text-[#0a0a0a] font-normal tracking-[-0.02em]">
-            0{PORTFOLIO_PROJECTS.length} projects
+            {String(PORTFOLIO_PROJECTS.length).padStart(2, '0')} projects
           </div>
         </div>
 
         {/* =================================================================
-            CENTER FRAMELESS 3D CASCADE STACK (5 UNIQUE WEBSITES, 120FPS GPU)
+            CENTER FRAMELESS 3D CASCADE STACK (10 UNIQUE WEBSITES + LIVE PREVIEW)
            ================================================================= */}
-        <div className="relative w-full h-full flex items-start justify-center overflow-hidden pt-[96px] md:pt-[34px]">
+        <div className="relative w-full h-full flex items-start justify-center overflow-hidden pt-[86px] md:pt-[22px]">
           <div
-            className="relative w-full max-w-[760px] h-full mx-auto"
+            className="relative w-full max-w-[760px] h-full mx-auto touch-none"
             onMouseLeave={() => {
               if (!isMobile) setActiveIndex(null);
             }}
+            onTouchMove={handleStackTouchMove}
           >
             {PORTFOLIO_PROJECTS.map((project, index) => {
               const isHoveredOrOpen = activeIndex === index;
-              const style = getFiveCardCascadeStyle(
+              const isCardLive = liveCascadeIndex === index;
+              const style = getTenCardCascadeStyle(
                 index,
                 PORTFOLIO_PROJECTS.length,
                 activeIndex,
@@ -262,9 +351,10 @@ export default function App() {
               return (
                 <div
                   key={project.id}
+                  data-card-index={index}
                   style={style}
                   onMouseEnter={() => {
-                    // Exact video behavior on Desktop: hovering any card immediately opens it in the stack!
+                    // PC: hovering any card immediately opens it in the stack & plays its live animations
                     if (!isMobile) {
                       setActiveIndex(index);
                     }
@@ -272,14 +362,14 @@ export default function App() {
                   onClick={(e) => {
                     e.stopPropagation();
                     if (isMobile) {
-                      // On touch devices: first tap opens the card in the cascade; second tap expands the live website!
+                      // Mobile: 1st tap opens card in cascade with live animation; 2nd tap expands full screen
                       if (activeIndex === index) {
                         setExpandedProject(project);
                       } else {
                         setActiveIndex(index);
                       }
                     } else {
-                      // On Desktop: clicking any card immediately expands the live interactive website!
+                      // Desktop: clicking any card expands full screen interactive website
                       setExpandedProject(project);
                     }
                   }}
@@ -289,32 +379,41 @@ export default function App() {
                       : 'border-black/10 shadow-[0_10px_28px_rgba(0,0,0,0.11)]'
                   }`}
                 >
-                  {/* GPU-Accelerated High-DPI Website Preview for 120fps zero-lag cascade animations */}
+                  {/* High-DPI Static Poster Base (0ms instant paint while stack moves) */}
                   <img
                     src={project.posterUrl}
                     alt={project.title}
-                    className="w-full h-full object-cover object-top select-none pointer-events-none transition-transform duration-700 group-hover:scale-[1.01]"
+                    className="w-full h-full object-cover object-top select-none pointer-events-none"
                     loading="eager"
                     decoding="async"
                   />
 
-                  {/* Subtle corner expand action badge when card is active/hovered */}
-                  <button
-                    type="button"
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      setExpandedProject(project);
-                    }}
+                  {/* Live Animated Website Overlay on Active/Hovered Card (or Front Card #10) */}
+                  <LiveCardIframe project={project} isLive={isCardLive} />
+
+                  {/* Live status indicator + corner expand action badge when card is active/hovered */}
+                  <div
                     className={`
-                      absolute top-2.5 right-2.5 z-20
-                      px-2.5 py-1 bg-white/95 backdrop-blur-xs border border-black/15
-                      text-[#0a0a0a] text-[9px] sm:text-[9.5px] font-geist-mono uppercase tracking-[0.06em]
-                      transition-opacity shadow-sm hover:bg-[#0a0a0a] hover:text-white cursor-pointer
+                      absolute top-2.5 right-2.5 z-20 flex items-center gap-1.5
+                      transition-opacity
                       ${isHoveredOrOpen ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'}
                     `}
                   >
-                    ↳ EXPAND {project.title}
-                  </button>
+                    <span className="px-2 py-1 bg-black/80 backdrop-blur-xs text-white text-[8.5px] font-geist-mono uppercase tracking-[0.08em] flex items-center gap-1.5">
+                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+                      LIVE
+                    </span>
+                    <button
+                      type="button"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        setExpandedProject(project);
+                      }}
+                      className="px-2.5 py-1 bg-white/95 backdrop-blur-xs border border-black/15 text-[#0a0a0a] text-[9px] sm:text-[9.5px] font-geist-mono uppercase tracking-[0.06em] shadow-sm hover:bg-[#0a0a0a] hover:text-white cursor-pointer"
+                    >
+                      ↳ EXPAND {project.title}
+                    </button>
+                  </div>
                 </div>
               );
             })}
@@ -329,7 +428,7 @@ export default function App() {
             <div>RATES OF QUALITY.</div>
           </div>
 
-          {/* Bottom-Right Bordered Button: ↳ VIEW ALL WORKS (Opens the active or first live web) */}
+          {/* Bottom-Right Bordered Button: ↳ VIEW ALL WORKS */}
           <button
             type="button"
             onClick={(e) => {
@@ -366,7 +465,7 @@ export default function App() {
                   {expandedProject.num} // {expandedProject.title}
                 </span>
 
-                {/* Quick switcher between the 5 websites */}
+                {/* Quick switcher between the 10 websites */}
                 <div className="flex items-center gap-1 pl-2 sm:pl-3 border-l border-[#e5e5e5]">
                   {PORTFOLIO_PROJECTS.map((p) => (
                     <button
@@ -483,7 +582,7 @@ export default function App() {
               Flow of Time. Rates of Quality.
             </h3>
             <p className="text-xs text-[#52525b] leading-relaxed mb-6">
-              Pasa el ratón por encima de las 5 webs en cascada para desplegarlas dentro de la pila (igual que en el vídeo) y haz clic en cualquiera para expandirla y ver sus animaciones en vivo.
+              En PC, pasa el ratón por las 10 webs en cascada para desplegarlas y ver sus animaciones en vivo (o haz clic para pantalla completa). En móvil, desliza el dedo o toca una tarjeta para ver su animación en vivo, y vuelve a tocarla para abrirla entera.
             </p>
             <button
               type="button"

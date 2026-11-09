@@ -1,0 +1,259 @@
+* { box-sizing: border-box; } body {margin: 0;}*{scrollbar-width:none;}::-webkit-scrollbar{display:none;}.pwb-scene{display:none;}.pwb-scene > canvas{width:100%;height:100%;display:block;user-select:none;pointer-events:none;}#i0jr{z-index:0;position:relative;background-color:#ffffff;}#ifph{top:0px;left:0px;right:0px;width:100vw;bottom:0px;height:100vh;display:block;z-index:-1;position:fixed;}#ifb3{width:100%;height:100%;display:block;min-height:75px;}#i6c84{top:12px;width:100%;display:flex;z-index:15;position:fixed;min-height:75px;align-items:center;flex-direction:row;justify-content:center;}#ikcbb{width:100%;display:flex;max-width:1440px;min-height:75px;align-items:center;flex-direction:row;justify-content:space-between;}#iecbq{gap:0px;display:flex;align-items:center;flex-direction:row;justify-content:start;}#i378v-2-2-2{border:1px solid #6f6f6f;display:flex;padding:10px;min-width:100px;transition:all 300ms ease 0ms;align-items:center;padding-left:20px;border-radius:9999px;padding-right:20px;flex-direction:row;justify-content:center;}#imm92-2-2-2{color:#ffffff;display:block;font-size:16px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;line-height:24px;letter-spacing:0px;}#i378v-2-2-2-2{width:px;border:1px solid #6f6f6f;display:flex;padding:10px;min-width:100px;transition:all 300ms ease 0ms;align-items:center;padding-left:20px;border-radius:9999px;padding-right:20px;flex-direction:row;justify-content:center;}#imm92-2-2-2-2{color:#ffffff;display:block;font-size:16px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;line-height:24px;letter-spacing:0px;}#i378v-2-2-2-3{border:1px solid #6f6f6f;display:flex;padding:10px;min-width:100px;transition:all 300ms ease 0ms;align-items:center;padding-left:20px;border-radius:9999px;padding-right:20px;flex-direction:row;justify-content:center;}#imm92-2-2-2-3{color:#ffffff;display:block;font-size:16px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;line-height:24px;letter-spacing:0px;}#ihrdiv-2-5{gap:5px;width:px;display:flex;min-width:110px;max-height:45px;min-height:45px;transition:all 300ms ease 0ms;align-items:center;padding-left:8px;border-radius:100px;padding-right:8px;flex-direction:row;justify-content:center;background-color:#6b6b6b;}#im9bk2-5{width:28px;height:28px;}#ivsxfg-2-5{color:#ffffff;display:block;font-size:14px;max-width:px;min-height:px;text-align:center;transition:all 300ms ease 0ms;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;line-height:18px;padding-top:10px;text-shadow:0px 1px 8px #00000026;padding-left:10px;padding-right:10px;letter-spacing:0px;padding-bottom:10px;}#iuyzh{width:100%;display:flex;align-items:center;flex-direction:column;justify-content:center;}#ise2k{top:80%;width:100%;display:flex;position:fixed;max-width:1440px;min-height:75px;align-items:start;padding-top:10px;padding-left:10px;padding-right:10px;flex-direction:row;padding-bottom:10px;justify-content:space-between;}#izvvl{color:#ffffff;width:100%;display:block;font-size:14px;max-width:400px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;line-height:24px;padding-top:10px;padding-left:10px;margin-bottom:20px;padding-right:10px;letter-spacing:-0.5px;padding-bottom:10px;}#izvvl-2{color:#ffffff;width:100%;display:block;font-size:32px;max-width:600px;text-align:center;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;line-height:1em;padding-top:10px;padding-left:10px;padding-right:10px;letter-spacing:0px;padding-bottom:10px;}#iudux{width:100%;display:block;max-width:400px;}#ixx7-2-2-2-2{top:px;width:100%;bottom:px;display:flex;position:relative;align-items:center;flex-direction:column;justify-content:center;}#ih6p-3-2-2-2-2-2{gap:0px;top:15%;width:100%;display:flex;position:fixed;max-width:1440px;min-height:75px;align-items:start;padding-top:10px;padding-left:10px;padding-right:10px;flex-direction:column;padding-bottom:10px;justify-content:center;}#izvvl-3{color:#ffffff;width:100%;display:block;font-size:14px;max-width:400px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;line-height:24px;margin-bottom:40px;letter-spacing:-0.5px;}#icz1-4-2-3-2-2-2-2-2{color:#ffffff;width:100%;display:block;font-size:28px;max-width:500px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;line-height:1em;letter-spacing:0px;}#icz1-4-2-3-2-2-2-2-2-4{color:#ffffff;width:100%;display:block;font-size:28px;max-width:500px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;line-height:1em;letter-spacing:0px;}#icz1-4-2-3-2-2-2-2-2-5{color:#ffffff;width:100%;display:block;font-size:28px;max-width:500px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;line-height:1em;letter-spacing:0px;}#iuyzh-2{width:100%;display:flex;align-items:center;flex-direction:column;justify-content:center;}#ise2k-2{top:80%;width:100%;display:flex;position:static;max-width:600px;min-height:75px;align-items:start;padding-top:10px;padding-left:10px;padding-right:10px;flex-direction:row;padding-bottom:10px;justify-content:space-between;}#izvvl-4{color:#ffffff;display:block;font-size:14px;max-width:400px;text-align:center;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;line-height:24px;padding-top:10px;padding-left:10px;margin-bottom:20px;padding-right:10px;letter-spacing:-0.5px;padding-bottom:10px;}#izvvl-2-2{color:#ffffff;width:100%;display:block;font-size:48px;max-width:350px;text-align:start;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;line-height:1em;padding-top:10px;padding-left:10px;padding-right:10px;letter-spacing:0px;padding-bottom:10px;}#iiocd{top:80%;width:100%;display:flex;position:fixed;max-width:1440px;min-height:75px;align-items:center;flex-direction:row;justify-content:end;}#iuyzh-2-2{width:100%;display:flex;align-items:center;flex-direction:column;justify-content:center;}#iiocd-3{top:80%;width:100%;display:flex;position:fixed;max-width:1440px;min-height:75px;align-items:center;flex-direction:row;justify-content:end;}#ise2k-2-3{top:80%;width:100%;display:flex;position:static;max-width:600px;min-height:75px;align-items:start;padding-top:10px;padding-left:10px;padding-right:10px;flex-direction:row;padding-bottom:10px;justify-content:space-between;}#izvvl-4-3{color:#ffffff;display:block;font-size:14px;max-width:400px;text-align:center;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;line-height:24px;padding-top:10px;padding-left:10px;margin-bottom:20px;padding-right:10px;letter-spacing:-0.5px;padding-bottom:10px;}#izvvl-2-2-3{color:#ffffff;width:100%;display:block;font-size:48px;max-width:350px;text-align:start;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;line-height:1em;padding-top:10px;padding-left:10px;padding-right:10px;letter-spacing:0px;padding-bottom:10px;}#ixx7-2-2-2-2-2-2{gap:0px;top:0px;width:100%;bottom:px;height:100dvh;display:flex;position:fixed;align-items:center;flex-direction:column;justify-content:center;}#ih6p-2-2-2-2-2-2{gap:40px;top:35dvh;width:100%;display:flex;position:static;max-width:600px;min-height:75px;align-items:center;padding-top:10px;padding-left:10px;padding-right:10px;flex-direction:column;padding-bottom:10px;}#icz1-2-2-2-2-2-2{color:#ffffff;width:100%;display:block;font-size:36px;text-align:center;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;line-height:1em;padding-top:10px;padding-left:10px;padding-right:10px;padding-bottom:10px;text-transform:none;}#ih6p-2-2-2-2-2-2-2{gap:6px;width:100%;bottom:0px;display:flex;position:relative;min-height:75px;align-items:center;padding-top:10px;padding-left:10px;padding-right:10px;flex-direction:column;padding-bottom:10px;}#icz1-2-2-2-2-2-2-2{color:#ffffff;display:block;font-size:20px;text-align:center;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;line-height:0.8em;padding-top:10px;padding-left:10px;padding-right:10px;letter-spacing:-0.03em;padding-bottom:10px;text-transform:none;}#ifjz01{font-family:"fontspring-demo-juana-lightit";}#iecbq-2{gap:10px;display:flex;align-items:center;flex-direction:row;justify-content:start;}#i378v-2-2-2-4{border:1px solid #6f6f6f;display:flex;padding:10px;min-width:155px;transition:all 300ms ease 0ms;align-items:center;padding-left:20px;border-radius:9999px;padding-right:20px;flex-direction:row;justify-content:center;}#imm92-2-2-2-4{color:#ffffff;display:block;font-size:14px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;line-height:24px;letter-spacing:0px;}#ihrdiv-2-5-2{gap:5px;width:px;display:flex;min-width:155px;max-height:45px;min-height:45px;transition:all 300ms ease 0ms;align-items:center;padding-left:8px;border-radius:100px;padding-right:8px;flex-direction:row;justify-content:center;background-color:#ffffff;}#im9bk2-5-2{width:28px;height:28px;}#ivsxfg-2-5-2{color:#000000;display:block;font-size:14px;max-width:px;min-height:px;text-align:center;transition:all 300ms ease 0ms;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;line-height:18px;padding-top:10px;text-shadow:0px 1px 8px #00000026;padding-left:10px;padding-right:10px;letter-spacing:0px;padding-bottom:10px;}#ise2k-2-4{top:40%;right:6dvw;display:block;position:static;min-height:75px;padding-top:10px;padding-left:10px;padding-right:10px;padding-bottom:10px;}#izvvl-3-2{color:#ffffff;width:100%;display:block;font-size:12px;max-width:400px;text-align:center;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;line-height:1em;padding-top:10px;padding-left:10px;padding-right:10px;padding-bottom:10px;}#izvvl-2-2-4{color:#ffffff;width:100%;display:block;font-size:26px;max-width:400px;text-align:center;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;padding-top:10px;padding-left:10px;padding-right:10px;letter-spacing:0px;padding-bottom:10px;}#i93cwg{gap:100dvh;top:px;width:10px;display:flex;position:static;min-height:75px;align-items:center;flex-direction:column;justify-content:start;}#itpqzc{height:200dvh;display:flex;min-height:75px;align-items:center;flex-direction:column;justify-content:center;}#itpqzc-2{height:100dvh;display:flex;min-height:75px;align-items:center;flex-direction:column;justify-content:start;}#i0tifc-2{display:block;margin-top:-15dvh;min-height:75px;}#itpqzc-2-2{height:50dvh;display:flex;min-height:75px;align-items:center;flex-direction:column;justify-content:start;}#itpqzc-2-2-2{height:50dvh;display:flex;min-height:75px;align-items:center;flex-direction:column;justify-content:start;}#i14o1z-2-2{display:block;min-height:75px;}#itpqzc-2-2-2-2{height:50dvh;display:flex;min-height:75px;align-items:center;flex-direction:column;justify-content:start;}#iiocd-2{top:10%;left:px;width:100%;display:flex;position:fixed;max-width:1440px;min-height:75px;align-items:center;flex-direction:row;justify-content:start;}#ise2k-2-2{gap:20px;top:80%;display:flex;position:static;min-height:75px;align-items:start;padding-top:10px;padding-left:10px;padding-right:10px;flex-direction:column;padding-bottom:10px;justify-content:space-between;}#ig8e32{width:100%;max-width:200px;}#ig8e32-2{width:100%;max-width:200px;}#iiocd-2-2{top:10%;left:px;width:100%;display:flex;position:fixed;max-width:1440px;min-height:75px;align-items:center;flex-direction:row;justify-content:start;}#ise2k-2-2-2{gap:20px;top:80%;display:flex;position:static;min-height:75px;align-items:start;padding-top:10px;padding-left:10px;padding-right:10px;flex-direction:column;padding-bottom:10px;justify-content:space-between;}#ig8e32-2-2-3-2{width:100%;max-width:200px;}#i6rkch{width:100%;display:none;z-index:9;position:relative;min-height:75px;}#iyb4cn{gap:6px;top:40px;right:40px;width:40px;height:18px;display:flex;position:fixed;align-items:end;flex-direction:column;}#ixj1tk{gap:80px;display:flex;z-index:1;position:absolute;flex-wrap:no-wrap;box-shadow:0px 10px 20px #0000000d;align-items:end;padding-top:40px;padding-left:40px;border-radius:8px;padding-right:40px;flex-direction:column;padding-bottom:40px;justify-content:start;background-color:#cbc2ff;}#iyb4cn-2{width:20px;height:20px;display:flex;margin-top:0px;align-items:center;padding-top:0px;margin-right:0px;padding-left:px;padding-right:0px;flex-direction:column;padding-bottom:px;justify-content:end;}#ieo39f{top:0px;right:0px;width:20px;bottom:0px;height:20px;position:fixed;margin-top:25px;margin-right:25px;}#id3wno{gap:35px;display:flex;align-items:end;flex-direction:column;justify-content:end;}#iecbq-3{gap:0px;display:flex;align-items:center;flex-direction:row;justify-content:start;}#imm92-2-2-2-5{color:#ffffff;display:block;font-size:16px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;line-height:24px;letter-spacing:0px;}#ihrdiv-2-5-3{gap:5px;width:px;display:flex;min-width:110px;max-height:45px;min-height:45px;transition:all 300ms ease 0ms;align-items:center;padding-left:8px;border-radius:100px;padding-right:8px;flex-direction:row;justify-content:center;background-color:#6b6b6b;}#im9bk2-5-3{width:28px;height:28px;}#ivsxfg-2-5-3{color:#ffffff;display:block;font-size:14px;max-width:px;min-height:px;text-align:center;transition:all 300ms ease 0ms;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;line-height:18px;padding-top:10px;text-shadow:0px 1px 8px #00000026;padding-left:10px;padding-right:10px;letter-spacing:0px;padding-bottom:10px;}#imm92-2-2-2-5-2{color:#ffffff;display:block;font-size:16px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;line-height:24px;letter-spacing:0px;}#imm92-2-2-2-5-3{color:#ffffff;display:block;font-size:16px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;line-height:24px;letter-spacing:0px;}#ih6p-3-2{gap:0px;top:px;bottom:0px;display:flex;position:fixed;min-height:75px;align-items:center;padding-top:10px;padding-left:10px;padding-right:10px;flex-direction:column;padding-bottom:10px;justify-content:end;}#igxii{width:20px;bottom:25px;height:30px;position:absolute;object-fit:none;}#icz1-4-2-3-2-3{color:#ffffff;width:100%;display:block;font-size:10px;max-width:300px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;line-height:18px;letter-spacing:0.1em;text-transform:uppercase;}#iok7gw{width:100%;display:flex;align-items:center;flex-direction:row;justify-content:center;}#i378v-2-2-2:hover{background-color:#373737;}#i378v-2-2-2-2:hover{background-color:#373737;}#i378v-2-2-2-3:hover{background-color:#373737;}#ihrdiv-2-5:hover{background-color:#232323;}#i378v-2-2-2-4:hover{background-color:#373737;}#ihrdiv-2-5-2:hover{background-color:#b5b5b5;}#inyovv{width:100px;}#i8efhm{width:100%;display:block;max-width:200px;border-radius:32px;}@font-face{src:url("/previews/surge-motion-electric/assets/fonts/ppneuemontreal-variable.ttf");font-family:ppneuemontreal-variable;}@font-face{src:url("/previews/surge-motion-electric/assets/fonts/fontspring-demo-juana-lightit.otf");font-family:fontspring-demo-juana-lightit;}@font-face{src:url("/previews/surge-motion-electric/assets/fonts/ppneuemontreal-medium.otf");font-family:ppneuemontreal-medium;}@font-face{src:url("/previews/surge-motion-electric/assets/fonts/aeoniktrial-regular.otf");font-family:aeoniktrial-regular;}@font-face{src:url("/previews/surge-motion-electric/assets/fonts/ppneuemontreal-medium.otf");font-family:ppneuemontreal-medium;}@font-face{src:url("/previews/surge-motion-electric/assets/fonts/ccsglyke.otf");font-family:ccsglyke;}@font-face{src:url("/previews/surge-motion-electric/assets/fonts/ccsglykeregular.ttf");font-family:ccsglykeregular;}@font-face{src:url("/previews/surge-motion-electric/assets/fonts/ccsglyke.otf");font-family:ccsglyke;}@font-face{src:url("/previews/surge-motion-electric/assets/fonts/ccsglykeregular.ttf");font-family:ccsglykeregular;}@font-face{src:url("/previews/surge-motion-electric/assets/fonts/ccsglyke.otf");font-family:ccsglyke;}@font-face{src:url("/previews/surge-motion-electric/assets/fonts/64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular.otf");font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";}@media (max-width: 992px){#i6c84{top:10px;width:100%;display:flex;position:fixed;min-height:75px;align-items:center;flex-direction:row;justify-content:center;}#ikcbb{width:100%;display:flex;max-width:1440px;min-height:75px;align-items:center;padding-left:20px;padding-right:20px;flex-direction:row;justify-content:space-between;}#iecbq{gap:12px;display:flex;align-items:center;flex-direction:row;justify-content:start;}#i378v-2-2-2{display:flex;padding:4px;min-width:80px;align-items:center;padding-left:20px;border-radius:9999px;padding-right:20px;flex-direction:row;justify-content:center;}#imm92-2-2-2{color:#ffffff;display:block;font-size:12px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;line-height:24px;letter-spacing:0px;}#i378v-2-2-2-2{width:px;display:flex;padding:4px;min-width:80px;align-items:center;padding-left:20px;border-radius:9999px;padding-right:20px;flex-direction:row;justify-content:center;}#imm92-2-2-2-2{color:#ffffff;display:block;font-size:12px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;line-height:24px;letter-spacing:0px;}#i378v-2-2-2-3{display:flex;padding:4px;min-width:80px;align-items:center;padding-left:20px;border-radius:9999px;padding-right:20px;flex-direction:row;justify-content:center;}#imm92-2-2-2-3{color:#ffffff;display:block;font-size:12px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;line-height:24px;letter-spacing:0px;}#ihrdiv-2-5{gap:5px;width:px;display:flex;min-width:110px;max-height:40px;min-height:40px;transition:all 300ms ease 0ms;align-items:center;margin-left:8px;padding-left:8px;border-radius:100px;padding-right:0px;flex-direction:row;justify-content:space-between;}#im9bk2-5{width:24px;height:24px;margin-left:0px;}#ivsxfg-2-5{color:#ffffff;width:100px;height:px;display:block;font-size:12px;max-width:px;min-height:px;text-align:center;transition:all 300ms ease 0ms;font-family:"ppneuemontreal-medium";font-weight:400;padding-top:15px;text-shadow:0px 1px 8px #00000026;padding-left:0px;padding-right:0px;padding-bottom:15px;}#iuyzh{width:100%;display:block;align-items:center;flex-direction:column;justify-content:center;}#ise2k{right:px;width:100%;bottom:px;display:flex;position:fixed;max-width:1440px;min-height:75px;align-items:start;padding-top:10px;padding-left:10px;padding-right:10px;flex-direction:row;padding-bottom:10px;justify-content:space-between;}#izvvl{color:#ffffff;display:block;max-width:160px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;padding-top:10px;padding-left:10px;margin-bottom:20px;padding-right:10px;padding-bottom:10px;}#izvvl-2{color:#ffffff;width:100%;display:block;font-size:20px;max-width:400px;text-align:center;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;padding-top:10px;padding-left:10px;padding-right:10px;padding-bottom:10px;}#iudux{width:100%;display:block;max-width:160px;}#ixx7-2-2-2-2{top:px;width:100%;bottom:px;display:block;position:relative;align-items:center;flex-direction:column;justify-content:center;}#ih6p-3-2-2-2-2-2{gap:0px;top:15%;left:5%;width:100%;display:flex;position:fixed;max-width:500px;min-height:75px;align-items:start;padding-top:10px;padding-left:10px;padding-right:10px;flex-direction:column;padding-bottom:10px;justify-content:center;}#izvvl-3{color:#ffffff;width:100%;display:block;max-width:400px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;padding-top:10px;padding-left:10px;margin-bottom:20px;padding-right:10px;padding-bottom:10px;}#icz1-4-2-3-2-2-2-2-2{color:#ffffff;width:100%;display:block;font-size:24px;max-width:500px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;padding-left:10px;padding-right:10px;}#icz1-4-2-3-2-2-2-2-2-4{color:#ffffff;width:100%;display:block;font-size:24px;max-width:600px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;padding-left:10px;padding-right:10px;}#icz1-4-2-3-2-2-2-2-2-5{color:#ffffff;width:100%;display:block;font-size:24px;max-width:600px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;padding-left:10px;padding-right:10px;letter-spacing:0px;}#iuyzh-2{width:100%;display:block;align-items:center;flex-direction:column;justify-content:center;}#ise2k-2{width:100%;display:flex;position:absolute;max-width:1440px;min-height:75px;align-items:start;padding-top:10px;padding-left:10px;padding-right:10px;flex-direction:row;padding-bottom:10px;justify-content:start;}#izvvl-4{color:#ffffff;width:100%;display:block;max-width:180px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;padding-top:10px;padding-left:10px;margin-bottom:20px;padding-right:10px;padding-bottom:10px;}#izvvl-2-2{color:#ffffff;width:100%;display:block;font-size:20px;max-width:400px;text-align:start;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;padding-top:10px;padding-left:32px;padding-right:10px;padding-bottom:10px;}#iuyzh-2-2{width:100%;display:block;align-items:center;flex-direction:column;justify-content:center;}#iiocd-3{width:100%;display:flex;position:fixed;max-width:1440px;min-height:75px;align-items:center;flex-direction:row;justify-content:end;}#ise2k-2-3{width:100%;display:flex;position:static;max-width:1440px;min-height:75px;align-items:start;padding-top:10px;padding-left:10px;padding-right:10px;flex-direction:row;padding-bottom:10px;justify-content:start;}#izvvl-4-3{color:#ffffff;width:100%;display:block;max-width:200px;text-align:center;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;padding-top:10px;padding-left:10px;margin-bottom:20px;padding-right:10px;padding-bottom:10px;}#izvvl-2-2-3{color:#ffffff;width:100%;display:block;font-size:20px;max-width:400px;text-align:start;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;padding-top:10px;padding-left:32px;padding-right:10px;padding-bottom:10px;}#ixx7-2-2-2-2-2-2{gap:0px;top:px;width:100%;bottom:px;display:block;position:fixed;align-items:center;flex-direction:column;justify-content:center;}#ih6p-2-2-2-2-2-2{gap:12px;width:100%;display:flex;position:fixed;max-width:800px;min-height:75px;align-items:center;padding-top:10px;padding-left:10px;padding-right:10px;flex-direction:column;padding-bottom:10px;}#icz1-2-2-2-2-2-2{color:#ffffff;width:100%;display:block;font-size:24px;max-width:500px;text-align:center;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;padding-top:10px;padding-left:10px;padding-right:10px;padding-bottom:10px;text-transform:none;}#ih6p-2-2-2-2-2-2-2{gap:6px;width:100%;display:flex;position:relative;max-width:800px;min-height:0px;align-items:center;padding-top:10px;padding-left:10px;padding-right:10px;flex-direction:column;padding-bottom:10px;}#icz1-2-2-2-2-2-2-2{color:#ffffff;width:100%;display:block;font-size:16px;max-width:400px;text-align:center;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;line-height:0.8em;padding-top:10px;padding-left:10px;padding-right:10px;letter-spacing:0px;padding-bottom:10px;text-transform:none;}#ifjz01{font-family:"fontspring-demo-juana-lightit";}#iecbq-2{gap:12px;display:flex;align-items:center;flex-direction:row;justify-content:start;}#i378v-2-2-2-4{border:1px solid #ffffff;display:flex;padding:8px;min-width:100px;max-height:40px;align-items:center;padding-left:20px;border-radius:9999px;padding-right:20px;flex-direction:row;justify-content:center;}#imm92-2-2-2-4{color:#ffffff;width:100%;display:block;font-size:12px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;line-height:24px;letter-spacing:0px;}#ihrdiv-2-5-2{gap:5px;width:px;display:flex;min-width:110px;max-height:40px;min-height:40px;transition:all 300ms ease 0ms;align-items:center;margin-left:8px;padding-left:8px;border-radius:100px;padding-right:0px;flex-direction:row;justify-content:space-between;}#im9bk2-5-2{width:24px;height:24px;margin-left:0px;}#ivsxfg-2-5-2{width:110px;height:px;display:block;font-size:12px;max-width:px;min-height:px;text-align:center;transition:all 300ms ease 0ms;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;padding-top:15px;text-shadow:0px 1px 8px #00000026;padding-left:10px;padding-right:10px;padding-bottom:15px;}#ise2k-2-4{gap:0px;top:100%;left:6dvw;display:flex;position:static;min-height:75px;align-items:center;padding-top:10px;padding-left:10px;padding-right:10px;flex-direction:column;padding-bottom:10px;justify-content:center;}#izvvl-3-2{color:#ffffff;width:100%;display:block;max-width:400px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;padding-top:10px;padding-left:10px;margin-bottom:0px;padding-right:10px;padding-bottom:10px;}#izvvl-2-2-4{color:#ffffff;width:100%;display:block;max-width:400px;margin-top:px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;padding-top:10px;margin-right:px;padding-left:10px;padding-right:10px;padding-bottom:10px;}#i93cwg{gap:60dvh;top:px;width:10px;display:flex;position:static;min-height:75px;align-items:center;flex-direction:column;justify-content:start;}#itpqzc{display:flex;min-height:75px;align-items:center;flex-direction:column;justify-content:center;}#itpqzc-2{display:block;min-height:75px;align-items:center;flex-direction:column;justify-content:start;}#i0tifc-2{display:block;min-height:75px;}#itpqzc-2-2{display:block;min-height:75px;align-items:center;flex-direction:column;justify-content:start;}#itpqzc-2-2-2{display:block;min-height:75px;align-items:center;flex-direction:column;justify-content:start;}#i14o1z-2-2{display:block;min-height:75px;}#itpqzc-2-2-2-2{display:block;min-height:75px;align-items:center;flex-direction:column;justify-content:start;}#iiocd-2{width:100%;display:none;position:fixed;max-width:1440px;min-height:75px;align-items:center;flex-direction:row;justify-content:end;}#ise2k-2-2{left:2dvw;width:100%;display:flex;position:absolute;max-width:1440px;min-height:75px;align-items:start;padding-top:10px;padding-left:10px;padding-right:10px;flex-direction:column;padding-bottom:10px;justify-content:space-between;}#ig8e32-2{width:100%;max-width:200px;}#iiocd-2-2{left:px;width:100%;display:none;position:fixed;max-width:1440px;min-height:75px;align-items:center;flex-direction:row;justify-content:end;}#ise2k-2-2-2{gap:20px;top:22%;left:6dvw;width:100%;display:flex;position:absolute;max-width:1440px;min-height:75px;align-items:start;padding-top:10px;padding-left:10px;padding-right:10px;flex-direction:column;padding-bottom:10px;justify-content:space-between;}#ig8e32-2-2-3-2{width:100%;max-width:200px;}#iiocd{right:px;bottom:px;}#i6rkch{display:none;}#iyb4cn{gap:6px;top:10px;right:20px;width:60px;height:20px;display:flex;position:relative;align-items:end;padding-top:0px;padding-right:10px;flex-direction:column;justify-content:center;}#ixj1tk{width:98%;display:flex;z-index:1;position:absolute;box-shadow:0px 10px 20px #0000000d;margin-top:20px;padding-top:10px;padding-left:10px;border-radius:8px;padding-right:10px;flex-direction:column;padding-bottom:30px;justify-content:end;background-color:#cbc2ff;}#iyb4cn-2{top:40px;right:30px;width:10px;height:10px;display:flex;position:absolute;flex-direction:row;justify-content:end;}#ieo39f{width:25px;height:25px;}#id3wno{gap:22px;width:100%;display:flex;margin-top:50px;align-items:center;padding-top:px;flex-direction:column;}#iecbq-3{gap:12px;display:flex;align-items:center;flex-direction:row;justify-content:start;}#imm92-2-2-2-5{color:#ffffff;display:block;font-size:12px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;line-height:24px;letter-spacing:0px;}#ihrdiv-2-5-3{gap:5px;width:px;border:1px solid #ffffff;display:flex;min-width:110px;max-height:40px;min-height:40px;transition:all 300ms ease 0ms;align-items:center;margin-left:8px;padding-left:8px;border-radius:100px;padding-right:0px;flex-direction:row;justify-content:space-between;background-color:#6b6b6b;}#im9bk2-5-3{width:24px;height:24px;margin-left:0px;}#ivsxfg-2-5-3{color:#ffffff;width:100px;height:px;display:block;font-size:12px;max-width:px;min-height:px;text-align:center;transition:all 300ms ease 0ms;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;padding-top:15px;text-shadow:0px 1px 8px #00000026;padding-left:0px;padding-right:0px;padding-bottom:15px;}#imm92-2-2-2-5-2{color:#ffffff;display:block;font-size:12px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;line-height:24px;letter-spacing:0px;}#imm92-2-2-2-5-3{color:#ffffff;display:block;font-size:12px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;line-height:24px;letter-spacing:0px;}#ih6p-3-2{gap:0px;top:px;display:flex;position:fixed;max-width:300px;min-height:0px;align-items:center;padding-top:10px;padding-left:10px;padding-right:10px;flex-direction:column;padding-bottom:10px;justify-content:center;}#igxii{top:40px;left:-40px;height:20px;position:static;margin-bottom:0px;}#icz1-4-2-3-2-3{color:#ffffff;display:block;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;}}@media (max-width: 480px){#i6c84{top:0px;width:100%;display:none;z-index:9999;position:fixed;min-height:75px;align-items:center;flex-direction:row;justify-content:center;}#ikcbb{width:100%;display:none;max-width:1440px;min-height:75px;align-items:center;flex-direction:row;justify-content:space-between;}#iecbq{gap:12px;width:100%;display:none;align-items:center;flex-direction:row;justify-content:start;}#i378v-2-2-2{border:1px solid #ffffff;display:flex;padding:8px;min-width:100px;align-items:center;padding-left:20px;border-radius:9999px;padding-right:20px;flex-direction:row;justify-content:center;}#imm92-2-2-2{color:#ffffff;width:100%;display:block;font-size:12px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;line-height:16px;letter-spacing:0px;}#i378v-2-2-2-2{width:px;border:1px solid #ffffff;display:flex;padding:8px;min-width:100px;align-items:center;padding-left:20px;border-radius:9999px;padding-right:20px;flex-direction:row;justify-content:center;}#imm92-2-2-2-2{color:#ffffff;width:100%;display:block;font-size:12px;font-family:Inter;font-weight:400;line-height:16px;letter-spacing:0px;}#i378v-2-2-2-3{border:1px solid #ffffff;display:flex;padding:8px;min-width:100px;align-items:center;padding-left:20px;border-radius:9999px;padding-right:20px;flex-direction:row;justify-content:center;}#imm92-2-2-2-3{color:#ffffff;width:100%;display:block;font-size:12px;font-family:Inter;font-weight:400;line-height:16px;letter-spacing:0px;}#ihrdiv-2-5{gap:5px;width:px;border:1px solid #ffffff;display:none;min-width:150px;max-height:45px;min-height:35px;transition:all 300ms ease 0ms;align-items:center;margin-left:8px;padding-left:8px;border-radius:100px;padding-right:0px;flex-direction:row;justify-content:center;background-color:#6b6b6b;}#im9bk2-5{width:45px;height:45px;margin-left:-10px;}#ivsxfg-2-5{color:#ffffff;width:110px;height:px;display:block;font-size:12px;max-width:px;min-height:px;text-align:center;transition:all 300ms ease 0ms;font-family:"outfit-semibold";font-weight:400;line-height:18px;padding-top:15px;text-shadow:0px 1px 8px #00000026;padding-left:10px;padding-right:10px;letter-spacing:1px;padding-bottom:15px;}#iuyzh{width:100%;display:flex;align-items:center;flex-direction:column;justify-content:center;}#ise2k{top:50%;width:100%;bottom:10%;display:flex;position:fixed;max-width:1440px;min-height:75px;align-items:start;padding-top:10px;padding-left:10px;padding-right:10px;flex-direction:column;padding-bottom:10px;justify-content:end;}#izvvl{color:#ffffff;width:100%;display:block;max-width:400px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;padding-top:0px;padding-left:10px;margin-bottom:10px;padding-right:10px;padding-bottom:0px;}#izvvl-2{color:#ffffff;width:100%;display:block;max-width:400px;text-align:start;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;padding-top:10px;padding-left:10px;padding-right:10px;padding-bottom:10px;}#iudux{width:100%;display:block;max-width:400px;}#ixx7-2-2-2-2{top:px;width:100%;bottom:px;display:flex;z-index:1;position:relative;align-items:center;margin-left:0px;margin-right:0px;flex-direction:column;justify-content:center;}#ih6p-3-2-2-2-2-2{gap:0px;top:10%;width:100%;display:flex;position:fixed;max-width:300px;min-height:75px;align-items:start;margin-left:0px;padding-top:10px;padding-left:0px;padding-right:10px;flex-direction:column;padding-bottom:10px;justify-content:end;}#izvvl-3{color:#ffffff;width:100%;display:block;max-width:400px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;padding-top:0px;padding-left:10px;margin-bottom:10px;padding-right:10px;padding-bottom:0px;}#icz1-4-2-3-2-2-2-2-2{color:#ffffff;width:100%;display:block;font-size:16px;max-width:250px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;padding-top:10px;padding-left:10px;padding-right:10px;padding-bottom:0px;}#icz1-4-2-3-2-2-2-2-2-4{color:#ffffff;width:100%;display:block;font-size:16px;max-width:250px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;padding-top:0px;padding-left:10px;padding-right:10px;padding-bottom:0px;}#icz1-4-2-3-2-2-2-2-2-5{color:#ffffff;width:100%;display:block;font-size:16px;max-width:250px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;padding-top:0px;padding-left:10px;padding-right:10px;padding-bottom:0px;}#iuyzh-2{width:100%;display:flex;align-items:center;flex-direction:column;justify-content:center;}#ise2k-2{top:22%;left:0dvw;width:100%;display:block;position:static;max-width:1440px;min-height:75px;align-items:start;padding-top:10px;padding-left:10px;padding-right:10px;flex-direction:row;padding-bottom:10px;justify-content:space-between;}#izvvl-4{color:#ffffff;width:100%;display:block;font-size:14px;max-width:400px;text-align:center;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;padding-top:10px;padding-left:10px;margin-bottom:10px;padding-right:10px;padding-bottom:0px;}#izvvl-2-2{color:#ffffff;width:100%;display:block;font-size:24px;max-width:400px;text-align:center;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;padding-top:10px;padding-left:10px;padding-right:10px;padding-bottom:10px;}#iuyzh-2-2{width:100%;display:flex;align-items:center;flex-direction:column;justify-content:center;}#iiocd-3{top:50%;width:100%;bottom:7%;display:flex;position:fixed;max-width:1440px;min-height:75px;align-items:end;flex-direction:row;justify-content:end;}#ise2k-2-3{top:22%;left:0dvw;width:100%;display:block;position:static;max-width:1440px;min-height:75px;align-items:start;padding-top:10px;padding-left:10px;padding-right:10px;flex-direction:row;padding-bottom:10px;justify-content:space-between;}#izvvl-4-3{color:#ffffff;width:100%;display:block;max-width:400px;text-align:center;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;padding-top:10px;padding-left:10px;margin-bottom:10px;padding-right:10px;padding-bottom:0px;}#izvvl-2-2-3{color:#ffffff;width:100%;display:block;font-size:24px;max-width:400px;text-align:center;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;padding-top:10px;padding-left:10px;padding-right:10px;padding-bottom:10px;}#ixx7-2-2-2-2-2-2{gap:0px;top:px;width:100%;bottom:px;display:flex;z-index:1;position:fixed;align-items:center;margin-left:0px;margin-right:0px;flex-direction:column;justify-content:center;}#ih6p-2-2-2-2-2-2{gap:19px;top:10dvh;width:100%;bottom:10dvh;display:flex;z-index:1;position:fixed;max-width:600px;min-height:75px;align-items:center;padding-top:10px;padding-left:10px;padding-right:10px;flex-direction:column;padding-bottom:10px;justify-content:center;}#icz1-2-2-2-2-2-2{color:#ffffff;width:100%;display:block;max-width:300px;text-align:center;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;padding-top:10px;padding-left:10px;padding-right:10px;padding-bottom:10px;text-transform:none;}#ih6p-2-2-2-2-2-2-2{gap:6px;left:0px;width:100%;bottom:0px;display:flex;z-index:1;position:relative;max-width:600px;min-height:0px;align-items:center;padding-top:10px;padding-left:10px;padding-right:10px;flex-direction:column;padding-bottom:10px;}#icz1-2-2-2-2-2-2-2{color:#ffffff;width:100%;display:block;font-size:14px;max-width:200px;text-align:center;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;line-height:0.4em;padding-top:10px;padding-left:10px;padding-right:10px;letter-spacing:0px;padding-bottom:10px;text-transform:none;}#ifjz01{font-family:"fontspring-demo-juana-lightit";}#iecbq-2{gap:12px;display:flex;align-items:center;flex-direction:row;justify-content:start;}#i378v-2-2-2-4{display:flex;padding:8px;min-width:100px;max-height:40px;align-items:center;padding-left:20px;border-radius:9999px;padding-right:20px;flex-direction:row;justify-content:center;}#imm92-2-2-2-4{color:#ffffff;display:block;text-align:center;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;}#ihrdiv-2-5-2{gap:5px;width:px;display:flex;max-height:40px;transition:all 300ms ease 0ms;align-items:center;margin-left:8px;padding-left:8px;border-radius:100px;padding-right:0px;flex-direction:row;justify-content:center;}#ivsxfg-2-5-2{width:100px;height:px;display:block;max-width:px;min-height:px;text-align:center;transition:all 300ms ease 0ms;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;text-shadow:0px 1px 8px #00000026;padding-left:0px;padding-right:0px;}#ise2k-2-4{top:40%;right:0dvw;width:100%;display:block;position:static;margin-top:30dvh;min-height:75px;padding-top:10px;padding-left:10px;padding-right:10px;padding-bottom:10px;}#izvvl-3-2{color:#ffffff;width:100%;display:block;max-width:400px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;padding-top:10px;padding-left:10px;margin-bottom:0px;padding-right:10px;padding-bottom:10px;}#izvvl-2-2-4{color:#ffffff;width:100%;display:block;max-width:400px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;padding-top:10px;padding-right:10px;padding-bottom:10px;}#i93cwg{gap:60dvh;top:px;width:10px;bottom:px;display:flex;position:static;min-height:75px;align-items:center;flex-direction:column;justify-content:start;}#itpqzc{display:flex;min-height:75px;align-items:center;flex-direction:column;justify-content:center;}#itpqzc-2{display:block;min-height:75px;align-items:center;margin-bottom:100dvh;flex-direction:column;justify-content:start;}#i0tifc-2{display:block;margin-top:-15dvh;min-height:75px;}#itpqzc-2-2{display:block;min-height:75px;align-items:center;flex-direction:column;justify-content:start;}#itpqzc-2-2-2{display:block;min-height:75px;align-items:center;flex-direction:column;justify-content:start;}#i14o1z-2-2{display:block;min-height:75px;}#itpqzc-2-2-2-2{display:block;min-height:75px;align-items:center;flex-direction:column;justify-content:start;}#iiocd-2{top:80%;width:100%;display:none;position:fixed;max-width:1440px;min-height:75px;align-items:center;flex-direction:row;justify-content:end;}#ise2k-2-2{top:22%;left:0dvw;width:100%;display:block;position:absolute;max-width:1440px;min-height:75px;align-items:start;padding-top:10px;padding-left:10px;padding-right:10px;flex-direction:row;padding-bottom:10px;justify-content:space-between;}#ig8e32-2{width:100%;max-width:200px;}#iiocd-2-2{top:80%;left:px;width:100%;display:none;position:fixed;max-width:1440px;min-height:75px;align-items:center;flex-direction:row;justify-content:end;}#ise2k-2-2-2{gap:20px;top:22%;left:0dvw;width:100%;display:block;position:absolute;max-width:1440px;min-height:75px;align-items:start;padding-top:10px;padding-left:10px;padding-right:10px;flex-direction:row;padding-bottom:10px;justify-content:space-between;}#ig8e32-2-2-3-2{width:100%;max-width:200px;}#i6rkch{display:flex;position:fixed;align-items:center;padding-left:20px;padding-right:20px;flex-direction:row;justify-content:space-between;}#iyb4cn{gap:6px;top:0px;right:0px;width:32px;height:32px;display:flex;position:relative;margin-top:-3px;align-items:center;margin-right:-5px;border-radius:100px;padding-right:0px;flex-direction:column;justify-content:center;background-color:#e9e9e9;}#ixj1tk{width:100%;height:px;display:flex;z-index:1;position:absolute;margin-top:0px;align-items:end;margin-left:0px;padding-top:0px;margin-right:0px;padding-left:20px;border-radius:0px;margin-bottom:60px;padding-right:20px;flex-direction:column;padding-bottom:40px;justify-content:end;background-color:#0e0e0e;}#iyb4cn-2{gap:6px;top:15px;right:15px;width:32px;border:1px solid #9d9d9d;height:32px;display:flex;position:absolute;align-items:center;margin-right:0px;border-radius:100px;flex-direction:column;justify-content:center;}#ieo39f{width:12px;height:12px;}#id3wno{gap:24px;width:100%;display:flex;align-items:start;padding-top:40px;flex-direction:column;padding-bottom:px;justify-content:center;}#iecbq-3{gap:20px;width:100%;display:flex;align-items:start;flex-direction:column;justify-content:center;}#imm92-2-2-2-5{color:#ffffff;display:block;font-size:24px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;}#ihrdiv-2-5-3{gap:5px;width:px;border:1px solid #6b6b6b;display:flex;min-width:150px;max-height:45px;min-height:35px;transition:all 300ms ease 0ms;align-items:center;margin-left:0px;padding-left:8px;border-radius:100px;padding-right:8px;flex-direction:row;justify-content:center;}#im9bk2-5-3{width:24px;height:24px;margin-left:0px;}#ivsxfg-2-5-3{color:#ffffff;width:110px;height:px;display:block;font-size:16px;max-width:px;min-height:px;text-align:center;transition:all 300ms ease 0ms;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;padding-top:10px;text-shadow:0px 1px 8px #00000026;padding-left:0px;padding-right:0px;padding-bottom:10px;}#imm92-2-2-2-5-2{color:#ffffff;display:block;font-size:24px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;}#imm92-2-2-2-5-3{color:#ffffff;display:block;font-size:24px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;}#iiocd{top:50%;bottom:7%;align-items:end;justify-content:center;}#ih6p-3-2{gap:0px;top:px;display:flex;position:fixed;max-width:300px;min-height:0px;align-items:center;padding-top:0px;flex-direction:column;padding-bottom:10px;}#igxii{top:40px;left:-48px;height:20px;position:static;margin-bottom:0px;}#icz1-4-2-3-2-3{color:#ffffff;width:100%;display:block;max-width:300px;font-family:"64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular";font-weight:400;}#iok7gw{display:flex;}}/* === VOLTRA X1 CUSTOM STYLES === */
+#i378v-2-2-2, #i378v-2-2-2-2, #i378v-2-2-2-3, #ihrdiv-2-5, #i378v-2-2-2-4, #ihrdiv-2-5-2, #ihrdiv-2-5-3, #imm92-2-2-2-5, #imm92-2-2-2-5-2, #imm92-2-2-2-5-3 {
+  cursor: pointer;
+  user-select: none;
+}
+#iecbq {
+  gap: 8px;
+}
+#i378v-2-2-2, #i378v-2-2-2-2, #i378v-2-2-2-3 {
+  background-color: rgba(11, 13, 16, 0.72);
+  border-color: rgba(168, 255, 0, 0.28) !important;
+  backdrop-filter: blur(8px);
+}
+#i378v-2-2-2:hover, #i378v-2-2-2-2:hover, #i378v-2-2-2-3:hover {
+  background-color: rgba(168, 255, 0, 0.16) !important;
+  border-color: #a8ff00 !important;
+}
+#ihrdiv-2-5, #ihrdiv-2-5-3 {
+  background-color: #111418 !important;
+  border: 1px solid #a8ff00 !important;
+  box-shadow: 0 0 18px rgba(168, 255, 0, 0.24);
+}
+#ihrdiv-2-5:hover, #ihrdiv-2-5-3:hover {
+  background-color: #1a2114 !important;
+  box-shadow: 0 0 26px rgba(168, 255, 0, 0.45);
+}
+#ihrdiv-2-5-2 {
+  background-color: #a8ff00 !important;
+  border: 1px solid #a8ff00 !important;
+  box-shadow: 0 0 24px rgba(168, 255, 0, 0.35);
+}
+#ihrdiv-2-5-2:hover {
+  background-color: #bdff33 !important;
+}
+#izvvl, #izvvl-3, #izvvl-4, #izvvl-4-3, #izvvl-3-2 {
+  color: #a8ff00 !important;
+  letter-spacing: 0.14em !important;
+  text-shadow: 0 0 14px rgba(168, 255, 0, 0.35);
+}
+#ig8e32, #ig8e32-2, #ig8e32-2-2-3-2 {
+  max-width: 240px !important;
+  filter: drop-shadow(0 16px 32px rgba(0,0,0,0.45));
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+#ig8e32:hover, #ig8e32-2:hover, #ig8e32-2-2-3-2:hover {
+  transform: translateY(-4px) scale(1.02);
+}
+#pwb-loading-page-logo {
+  display: none !important;
+}
+.voltra-nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-right: 14px;
+  margin-right: 6px;
+  cursor: pointer;
+}
+.voltra-nav-brand img {
+  height: 22px;
+  width: auto;
+  display: block;
+}
+.voltra-nav-badge {
+  font-family: "64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular", Inter, sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  color: #a8ff00;
+  background: rgba(168, 255, 0, 0.1);
+  border: 1px solid rgba(168, 255, 0, 0.45);
+  padding: 3px 9px;
+  border-radius: 999px;
+  text-transform: uppercase;
+}
+/* Modal / Drawer */
+#voltra-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  background: rgba(6, 8, 10, 0.82);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+#voltra-modal-backdrop.is-open {
+  opacity: 1;
+  pointer-events: auto;
+}
+.voltra-modal-card {
+  width: 100%;
+  max-width: 560px;
+  background: linear-gradient(145deg, rgba(17, 20, 24, 0.97) 0%, rgba(9, 10, 12, 0.99) 100%);
+  border: 1px solid rgba(168, 255, 0, 0.28);
+  border-radius: 24px;
+  padding: 32px;
+  color: #ffffff;
+  font-family: "64a7b8f2fb25ca3f9e8499ff-neuemontreal-regular", Inter, sans-serif;
+  box-shadow: 0 32px 80px rgba(0, 0, 0, 0.85), 0 0 40px rgba(168, 255, 0, 0.08);
+  transform: translateY(20px) scale(0.98);
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+}
+#voltra-modal-backdrop.is-open .voltra-modal-card {
+  transform: translateY(0) scale(1);
+}
+.voltra-modal-close {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.2);
+  background: rgba(255,255,255,0.06);
+  color: #ffffff;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+.voltra-modal-close:hover {
+  background: rgba(168, 255, 0, 0.16);
+  border-color: #a8ff00;
+}
+.voltra-modal-eyebrow {
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #a8ff00;
+  margin-bottom: 8px;
+}
+.voltra-modal-title {
+  font-size: 28px;
+  line-height: 1.15;
+  margin: 0 0 8px 0;
+  font-weight: 400;
+}
+.voltra-modal-sub {
+  font-size: 14px;
+  color: rgba(255,255,255,0.7);
+  margin: 0 0 22px 0;
+  line-height: 1.5;
+}
+.voltra-specs-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-bottom: 22px;
+}
+.voltra-spec-box {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(168, 255, 0, 0.18);
+  border-radius: 14px;
+  padding: 12px 10px;
+  text-align: center;
+}
+.voltra-spec-val {
+  font-size: 18px;
+  font-weight: 600;
+  color: #a8ff00;
+  display: block;
+}
+.voltra-spec-lbl {
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.6);
+  margin-top: 4px;
+  display: block;
+}
+.voltra-form-label {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.65);
+  margin-bottom: 8px;
+}
+.voltra-sizes {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+.voltra-size-btn {
+  flex: 1;
+  padding: 10px 0;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.2);
+  background: rgba(255,255,255,0.04);
+  color: #ffffff;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.voltra-size-btn.active, .voltra-size-btn:hover {
+  background: #a8ff00;
+  color: #08090b;
+  border-color: #a8ff00;
+  font-weight: 600;
+}
+.voltra-input-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.voltra-input {
+  flex: 1;
+  padding: 13px 16px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.22);
+  background: rgba(255,255,255,0.06);
+  color: #ffffff;
+  font-size: 14px;
+  outline: none;
+}
+.voltra-input::placeholder {
+  color: rgba(255,255,255,0.45);
+}
+.voltra-input:focus {
+  border-color: #a8ff00;
+}
+.voltra-submit-btn {
+  padding: 13px 24px;
+  border-radius: 999px;
+  border: none;
+  background: #a8ff00;
+  color: #08090b;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.2s ease;
+  white-space: nowrap;
+}
+.voltra-submit-btn:hover {
+  background: #bdff33;
+  transform: translateY(-1px);
+}
+.voltra-modal-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  font-size: 12px;
+  color: rgba(255,255,255,0.6);
+}
+.voltra-price-highlight {
+  font-size: 20px;
+  color: #a8ff00;
+  font-weight: 600;
+}
